@@ -1,0 +1,12 @@
+export default function Loading() {
+  return (
+    <div className="min-vh-100 d-flex align-items-center justify-content-center bg-light">
+      <div className="text-center">
+        <div className="spinner-border text-primary mb-3" role="status" style={{ width: '3rem', height: '3rem' }}>
+          <span className="visually-hidden">Loading...</span>
+        </div>
+        <h5 className="text-muted">Memuat JagaWarga...</h5>
+      </div>
+    </div>
+  );
+}
